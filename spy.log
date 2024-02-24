@@ -1,0 +1,19 @@
+1708795490844|2|statement|connection 2|url jdbc:h2:tcp://localhost/~/jpashop|     drop table if exists member CASCADE |     drop table if exists member CASCADE 
+1708795490847|1|statement|connection 2|url jdbc:h2:tcp://localhost/~/jpashop|     drop sequence if exists hibernate_sequence|     drop sequence if exists hibernate_sequence
+1708795490855|2|statement|connection 3|url jdbc:h2:tcp://localhost/~/jpashop|create sequence hibernate_sequence start with 1 increment by 1|create sequence hibernate_sequence start with 1 increment by 1
+1708795490858|1|statement|connection 3|url jdbc:h2:tcp://localhost/~/jpashop|     create table member (        id bigint not null,         username varchar(255),         primary key (id)     )|     create table member (        id bigint not null,         username varchar(255),         primary key (id)     )
+1708795512138|1|statement|connection 2|url jdbc:h2:tcp://localhost/~/jpashop|     drop table if exists member CASCADE |     drop table if exists member CASCADE 
+1708795512139|0|statement|connection 2|url jdbc:h2:tcp://localhost/~/jpashop|     drop sequence if exists hibernate_sequence|     drop sequence if exists hibernate_sequence
+1708795512142|0|statement|connection 3|url jdbc:h2:tcp://localhost/~/jpashop|create sequence hibernate_sequence start with 1 increment by 1|create sequence hibernate_sequence start with 1 increment by 1
+1708795512144|1|statement|connection 3|url jdbc:h2:tcp://localhost/~/jpashop|     create table member (        id bigint not null,         username varchar(255),         primary key (id)     )|     create table member (        id bigint not null,         username varchar(255),         primary key (id)     )
+1708795536471|1|statement|connection 1|url jdbc:h2:tcp://localhost/~/jpashop|     drop table if exists member CASCADE |     drop table if exists member CASCADE 
+1708795536472|0|statement|connection 1|url jdbc:h2:tcp://localhost/~/jpashop|     drop sequence if exists hibernate_sequence|     drop sequence if exists hibernate_sequence
+1708795536476|0|statement|connection 2|url jdbc:h2:tcp://localhost/~/jpashop|create sequence hibernate_sequence start with 1 increment by 1|create sequence hibernate_sequence start with 1 increment by 1
+1708795536477|0|statement|connection 2|url jdbc:h2:tcp://localhost/~/jpashop|     create table member (        id bigint not null,         username varchar(255),         primary key (id)     )|     create table member (        id bigint not null,         username varchar(255),         primary key (id)     )
+1708795538257|7|statement|connection 3|url jdbc:h2:tcp://localhost/~/jpashop|call next value for hibernate_sequence|call next value for hibernate_sequence
+1708795538382|0|statement|connection 3|url jdbc:h2:tcp://localhost/~/jpashop|insert into member (username, id) values (?, ?)|insert into member (username, id) values ('memberA', 1)
+1708795538384|0|commit|connection 3|url jdbc:h2:tcp://localhost/~/jpashop||
+1708795667298|0|statement|connection 8|url jdbc:h2:tcp://localhost/~/jpashop|     drop table if exists member CASCADE |     drop table if exists member CASCADE 
+1708795667299|0|statement|connection 8|url jdbc:h2:tcp://localhost/~/jpashop|     drop sequence if exists hibernate_sequence|     drop sequence if exists hibernate_sequence
+1708795667300|0|statement|connection 9|url jdbc:h2:tcp://localhost/~/jpashop|create sequence hibernate_sequence start with 1 increment by 1|create sequence hibernate_sequence start with 1 increment by 1
+1708795667302|1|statement|connection 9|url jdbc:h2:tcp://localhost/~/jpashop|     create table member (        id bigint not null,         username varchar(255),         primary key (id)     )|     create table member (        id bigint not null,         username varchar(255),         primary key (id)     )
