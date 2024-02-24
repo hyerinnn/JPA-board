@@ -36,13 +36,10 @@ public class Category {
     private List<Category> child = new ArrayList<>();
 
 
-/*
-
     //==연관관계 메서드==//
     public void addChildCategory(Category child) {
-        this.child.add(child);
-        child.setParent(this);
+        this.child.add(child); //부모컬렉션에 추가
+        child.setParent(this); //자식에도 부모가 누군지 셋.
     }
-*/
 
 }

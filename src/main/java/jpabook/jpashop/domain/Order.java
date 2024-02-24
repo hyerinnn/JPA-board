@@ -43,14 +43,11 @@ public class Order {
     private OrderStatus status; //주문상태 [ORDER, CANCEL]
 
 
-/*
-
     //==연관관계 메서드==//
     public void setMember(Member member) {
         this.member = member;
         member.getOrders().add(this);
     }
-
     public void addOrderItem(OrderItem orderItem) {
         orderItems.add(orderItem);
         orderItem.setOrder(this);
@@ -60,6 +57,10 @@ public class Order {
         this.delivery = delivery;
         delivery.setOrder(this);
     }
+
+/*
+
+
 
     //==생성 메서드==//
     public static Order createOrder(Member member, Delivery delivery, OrderItem... orderItems) {
